@@ -84,7 +84,12 @@ I chose the bug in the ```reverseInPlace``` method of the ```ArrayExamples``` cl
 	}
 ```
 **Symptom:**
-Image
+![Image](labss3.png)
+
+**Part 3:**
+
+Lab in Week 2 introduced us to the inner workings of a web page. I think that this was really helpful because we use we pages for even simple things now days. After running the server on a remote computer in the CSE basement, I got a URL that could be accessed from any device. The most exciting part was that when editing the server, the change was displayed immediately on the web page that i created.
+Lab in Week 3 was about Server and bugs. We were taught the basics of testing a code using jUnit testing. We were also given a thoughtful insigt on how we can use symptoms and testing to find bugs and fix the code. I think that this will also help me in CSE12 which I am taking this quarter.
 
 
    
