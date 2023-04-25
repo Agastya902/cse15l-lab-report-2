@@ -61,3 +61,31 @@ class StringServer
    When the above path is typed in after the previous attempt, the handle method in StringHandler with the URI is called again. Now the program checks if the /add-message exists in the path. Then it creates an array which stores the string after the "=" sign. Here it is "ronnie". Now the given string ("ronnie") is printed in a new line because we used "/n" in the previous iteration.
    
 ![Image](labss2.png)   
+
+**Part 2:**
+I chose the bug in the ```reverseInPlace``` method of the ```ArrayExamples``` class.
+
+**Input that induces failure**
+```@Test
+  public void testReverseInPlace1() 
+  {
+    int[] input1 = {0, 1, 2, 3, 4, 5};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{5, 4, 3, 2, 1, 0}, input1);
+  }
+  ```
+  **Input that does not induce a failure**
+  ```@Test 
+	public void testReverseInPlace() 
+  {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+```
+**Symptom:**
+Image
+
+
+   
+   
